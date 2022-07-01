@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goncalves Book</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+
+    <!--Link CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- JavaScript de Comentarios -->
+    <script src="./js/contact.js"></script>
+
+    <!-- CSS de Sweet Alert -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body>
+    <main>
+        <header class="container-barra">
+            <div class="flexible">
+                <div class="logotipo flexible">
+                    <img src="./assets/img/logo.png" alt="Logo Liberia de Autor">
+                    <h1><span>Goncalves</span>Book</h1>
+                </div>
+                <ul class="flexible">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobremi">Sobre Mi</a></li>
+                    <li><a href="#libros">Libros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <img id="open-carrito" src="./assets/img/carrito.png" alt="carrito" width="60 px">
+                </ul>
+                </div>
+                </div>
+            </div>
+        </header>
+        <div class="conten flexible">
+            <div class="one">
+                <h1>Libros para regalar, autoregalar y decidar</h1>
+                <p>Romance, drama y comedia son los principales generos acá expuestos</p>
+                <button id="open-modal" class="btn bg-warning">Suscríbete al Boletín</button>
+            </div>
+            <div class="two">
+                <img class="main" src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <!--Contenido-->
+    <article class="container-frases">
+      <p class="frases">"Cuando encuentras un diamante que no es de nadie, es tuyo. Cuando encuentras una isla que no es de nadie, es tuya. Cuando eres el primero en tener una idea, la haces patentar: es tuya. Yo poseo las estrellas porque jamás nadie antes que yo soñó con poseerlas."</p>
+    </article>
+    <h2 id="sobremi">Sobre Mi</h2>
+    <section class="container-sobre-mi">
+      <div>
+        <img class="avatar" src="./assets/img/perfil.jpg" alt="Autor Claudio Baute Goncalves">
+      </div>
+      <article>
+      <div>
+        <p>Graduado de administración y contaduría en el año 2009, trabajando por 3 años en esta area jamas encontre una pasión que me llevará sinceramente a conocerme. Posteriormente, al emigrar a Chile, logre iniciarme en el area de la informatica pero sin dejar mi hobbie de niño: La Escritura.</p>
+        <p>Narrar una historia o leer una novela puede cambiar tu forma de ver el enterno. Ver la vida a través de los ojos de otros personajes que pueden ser muy diferentes a ti en lo personal, puede dar otra optica de como es el mundo, como es un problema o situación en especifica. Escribir es arte y se encuentra en todas partes, incluso escribimos cuando redactamos un codigo en informatica.</p>
+        <p>Nacido en Caracas (Venezuela), con 5 años de vida en Chile y actualmente 1 año en Portugal, puedo asegurar que tengo las mil historias por contar, sin ser autobiografico pero tratando de transmitir la mayor sinceridad en cada libro, intento dar narrarte historias profundas donde el drama, amor, ficción y comedia harán que te enamores de estos libros.</p>
+        <p>"Un libro de cabecera no se escoge, se enamora uno de él" José Luis de Villalonga</p>
+        <p>¡Te invito un libro!</p>
+      </div>
+      </article>
+    </section>
+
+    <!--Libreria-->
+    <section id="libros"class="container mt-5">
+      <h2 class="text-center">La Libreria</h2>
+      <div id="filtro">
+      </div>
+      <div class="items">
+        <div class="row">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row text-center" id="tienda">
+        
+      </div>
+    </section>
+
+    <!--Contactos-->
+    <section id="contacto" class="form-inicial">
+    <div class="formulario">
+      <h1 class="img-nos"> Contacta<span>nos</span></h1>
+
+      <div class="contact-wrapper">
+        <div class="contact-form">
+          <h4>Escribe para mas detalles</h4>
+          <form action="">
+            <p>
+              <label>Nombre y Apellido</label>
+              <input type="text" name="fullname" id="fullname">
+            </p>
+            <p>
+              <label>Email</label>
+              <input type="email" name="email" id="emails">
+            </p>
+            <p>
+              <label>Numero Movil</label>
+              <input type="tel" name="movil" id="movil">
+            </p>
+            <p>
+              <label>Asunto</label>
+              <input type="text" name="affair" id="affair">
+            </p>
+            <p class="block">
+              <label> Mensaje</label>
+              <textarea name="message" rows="3" id="message"></textarea>
+            </p>
+            <p class="block">
+              <button type="button" onClick="mostrar_com()">Enviar</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <!--FOOTER-->
+<footer class="pie-pagina">
+  <div class="grupo-1">
+    <div class="box">
+      <h5>Formas de Pago</h5>
+      <img src="./assets/img/garantia.png" alt="Visa">
+      <img src="./assets/img/mastercard.png" alt="MasterCard">
+      <img src="./assets/img/americanexpress.png" alt="American Express">
+      <img src="./assets/img/paypal.png" alt="PayPal">
+    </div>
+    <div class="box">
+      <h5>Ubicacion:</h5>
+      <p>Praça do Comércio, Gran Lisboa, Portugal.</p>
+    </div>
+    <div class="box">
+      <h5>Conctactanos</h5>
+      <div>
+      <a href="https://web.whatsapp.com/" class="fa"><img src="./assets/img/whatsapp.png" alt="Whatsapp"></a>
+      <a href="https://www.instagram.com/" class="fa"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </div>
+  <div class="grupo-2">
+    <img src="./assets/img/autor.png" alt="Autor" height="10px">
+    <small>Copyright 2022. <b>Goncalves Book</b> - Todos los derechos reservados.</small>
+  </div>
+</footer>
+
+<!-- Modal -->
+<div id="modal-container" class="modal-container">
+  <div id="modal" class="my-modal">
+    <img id="close-modal" class="close-modal" src="./assets/img/x.png">
+    <article class="contenido-modal">
+      <h4>Boletin de Novedades</h4>
+      <p class="modal-text">Todas las novedades y descuentos se encuentran en esta suscripción, donde recibiras ofertas mensuales.</p>
+      <div class="input-block">
+        <label for="email" class="input-label">Correo: </label>
+        <input type="email" name="email" id="subcription" placeholder="Email">
+      </div>
+      <div>
+        <button id="toast" class="btn bg-warning boton-sus" onClick="mostrar_inputs()">Suscripción</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<div id="modal-carrito" class="modal-container">
+  <div id="modal-2" class="my-carrito">
+    <img id="close-carrito" class="close-carrito" src="./assets/img/x.png">
+      <div>
+        <section class="container mt-5">
+          <h5>Carrito</h5>
+          <div class="row text-center" id="carrito">
+    
+          </div>
+          <div id="total">
+    
+          </div>
+          <p>Precio Total: € <span id="precioTotal">0</span></p>
+        </section>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script src="./js/main.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+</html>

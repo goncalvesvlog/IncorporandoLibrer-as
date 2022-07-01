@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "roboto", sans-serif;
+}
+
+.flexible{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-barra{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around !important;
+}
+
+header .logotipo img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    padding-top: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+header h1 span {
+    color: rgb(8, 205, 8);
+}
+
+header ul {
+    margin-top: 10px;
+}
+
+header ul li{
+    padding: 5px 20px;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+header ul li a {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+    transition: color ease-out 0.6s;
+}
+
+header ul li a:hover {
+    color: greenyellow;
+}
+
+header input {
+    padding: 8px 20px;
+    background-color: rgb(9, 209, 9);
+    color: white;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+header input:hover{
+    transition:scalet(1.09);
+    background-color: rgba(9, 209, 9, 0.683);
+}
+
+.container-barra .conten {
+    width: 100%;
+    height: 90vh;
+}
+
+.conten .one{
+    width: 60%;
+    padding: 0 100px;
+}
+
+.conten .one h1{
+    font-size: 60px;
+}
+
+.conten .one img{
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: -10px;
+}
+
+.conten .one p{
+    font-size: 16px;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.728);
+}
+
+.conten input{
+    padding: 10px 20px;
+    background-color: rgb(9, 209, 9);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.conten input:hover{
+    transform: scale(1.09);
+    background-color: rgba(9, 209, 9, 0.683);
+}
+
+.conten .input2{
+    margin-left: 15px;
+}
+
+.conten .two{
+    width: 40%;
+    position: relative;
+}
+
+/*FRASES*/
+.container-frases{
+    background-color: rgb(194, 255, 199);
+    border-radius: 20px;
+    padding: 40px 60px 40px 60px;
+    margin: 40px 60px 40px 60px;
+}
+
+.frases{
+    padding: 30px 15px 30px 15px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+/*SOBRE MI*/
+.avatar {
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.container-sobre-mi {
+    display: flex;
+    flex-direction: nowrap;
+    padding: 15px 70px 15px 70px;
+    margin: 20px 50px 20px 50px;
+}
+
+section article div p{
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem;
+    padding: 15px 70px 15px 70px;
+}
+
+/*FORMULARIO*/
+.form-inicial{
+    background: black;
+    color: white;
+}
+
+.formulario{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.img-nos{
+    text-align: center;
+    font-size: 3em;
+}
+
+.img-nos span{
+    color: rgba(9, 209, 9, 0.683);
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper >* {
+    padding: 1em;
+}
+
+.contact-form{
+    background:#222222;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block{
+    grid-column: 1/3;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-bottom: 1px solid green;
+}
+
+.contact-form form button{
+    background: green;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus{
+    background: rgba(9, 209, 9, 0.683);
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #000000;
+    border-top: 1rem solid rgba(220, 254, 220, 0.683);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #000000;
+}
+
+.grupo-1{
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+
+.pie-pagina .grupo-1 .box h5{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 img{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 30px;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(9, 209, 9);
+    padding: 15px 10px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+/*MODAL 1*/
+.modal-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s all ease-in-out;
+}
+
+.my-modal {
+    background-color: #fff;
+    width: 320px;
+    min-height: 300px;
+    border-radius: 20px;
+}
+
+.modal-container--visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.close-modal{
+    max-width: 10%;
+    max-height: 10%;
+    padding: 6px 6px;
+}
+
+.contenido-modal{
+    padding: 25px 25px;
+}
+
+.boton-sus{
+    margin: 10px 10px 10px 10px;
+}
+
+/*MODAL 2*/
+.my-carrito {
+    background-color: rgb(221, 255, 227);
+    width: 870px;
+    min-height: 500px;
+    border-radius: 20px;
+}
+
+.modal-carrito--visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.close-carrito{
+    max-width: 5%;
+    max-height: 5%;
+    padding: 6px 6px;
+}
