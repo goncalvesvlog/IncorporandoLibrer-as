@@ -1,0 +1,11 @@
+[
+    {"id": 1, "nombre": "Una noche en Venecia", "descripcion": "Un romance dificil de afrontar entre los canales de Venecia.", "img": "./assets/img/book1.png", "precio": 14, "cantidad": 1},
+    {"id": 2, "nombre": "Love in Paris", "descripcion": "Paris es una ciudad cambiante, tan cambiante como el amor.", "img": "./assets/img/book2.png", "precio": 19, "cantidad": 1},
+    {"id": 3, "nombre": "Locura de Amor", "descripcion": "¿A qué le temes? La locura y el amor en un solo lugar.", "img": "./assets/img/book3.png", "precio": 8, "cantidad": 1},
+    {"id": 4,"nombre": "Frank", "descripcion": "Las redes sociales son un peligro, y conocer a un extraño ¿Catfish?", "img": "./assets/img/book4.png", "precio": 18, "cantidad": 1},
+    {"id": 5, "nombre": "Crimenes y Poder", "descripcion": "Religión, Judicial, Legislativo y Presidencial un poder criminal.", "img": "./assets/img/book5.png", "precio": 21, "cantidad": 1},
+    {"id": 6, "nombre": "Tragedia en el Nilo", "descripcion": "Narrativa de un romance en Medio Oriente, con toques Occidentales.", "img": "./assets/img/book6.png", "precio": 14, "cantidad": 1},
+    {"id": 7, "nombre": "Caidas al vacio", "descripcion": "¿Te sientes como si el final llega? Quizas estas cayendo al vacio sin darte cuenta.", "img": "./assets/img/book7.png", "precio": 18, "cantidad": 1},
+    {"id": 8, "nombre": "Reir, ¿Fallar? y Soñar", "descripcion": "Para tener una buena relación con uno mismo quizas necesites reir y llorar pero tambien ¿Fallar?", "img": "./assets/img/book8.png", "precio": 9, "cantidad": 1},
+    {"id": 9, "nombre": "Anotomia de una Carcajada", "descripcion": "La narrativa de un inspirado y novato comediante en las calles de New York.", "img": "./assets/img/book9.png", "precio": 12, "cantidad": 1}
+]
